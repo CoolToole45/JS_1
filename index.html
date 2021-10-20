@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>JS_1</title>
+</head>
+<body>
+    <script>
+        // Primitive Data Types:    
+
+        // String
+        let myString = "This is my string";
+        console.log(myString);
+
+        // Number
+        let myNumber = 19;
+        let myOtherNumber = 3.14;
+        console.log(myNumber, myOtherNumber);
+
+        // Boolean
+        let isFirstUser = true;
+        let isSecondUser = false;
+        if(isFirstUser) {
+            console.log(isFirstUser);
+        }else {
+            console.log(isSecondUser);
+        }
+
+        // Null
+        let isNull = null;
+        console.log(isNull);
+
+        // Undefined
+        let isUndefined = undefined;
+        console.log(isUndefined);
+
+
+        // Arithmetic Operations
+
+        let firstNum = 25;
+        let secondNum = 54;
+
+        // Addition
+        console.log(firstNum + secondNum);
+
+        // Subtraction
+        console.log(firstNum - secondNum);
+
+        // Multiplication
+        console.log(firstNum * secondNum);
+
+        // Division
+        console.log(firstNum / secondNum);
+
+        // Module
+        let firstMod = 10;
+        let secondMod = 2;
+        console.log(firstMod % secondMod);
+
+
+        // String Concatenation
+
+        let someString = "This is some string and "
+        let isMine = "it is mine."
+
+        // With "+"
+        console.log(someString + isMine);
+
+        // With Backticks
+        console.log(`${someString}I know ${isMine}`)
+
+
+        // Find The Area Of A Rectangle
+        let width = 7;
+        let length = 5;
+        console.log("The Area =", width * length);
+
+
+        // Find The Area Of A Triangle
+        let firstSide = 5;
+        let secondSide = 6;
+        let thirdSide = 6;
+
+        let semiPer = (firstSide + secondSide + thirdSide)/2;
+        let triArea = Math.sqrt(semiPer * (semiPer - firstSide) * (semiPer - secondSide) * (semiPer - thirdSide));
+        console.log("The Area =", triArea);
+
+
+        // Find The Area Of A Circle
+        let radius = 7;
+        console.log("The Area =", Math.PI * Math.pow(7, 2));
+
+    </script>
+</body>
+</html>
